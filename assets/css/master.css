@@ -53,3 +53,10 @@ main{
   width: 100%;
   position: absolute;
 }
+
+ul .circle li {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
