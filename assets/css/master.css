@@ -5,9 +5,9 @@
 }
 
 body {
-  font-family: 'Nerko One', cursive;
+  font-family: 'Changa', sans-serif, monospace;
   font-size: 1.5em;
-  background-color: #add8e6;
+  background-color: rgb(1, 73, 164);
 }
 
 .container {
@@ -19,10 +19,10 @@ body {
 header {
   padding: 10px;
   font-size: 1.8em;
-  color: white;
+  color: #000;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(255, 217, 80, 0.5);
 }
 
 main .cards {
@@ -63,12 +63,12 @@ main .card-element.active .card-text {
   width: 100%;
   line-height: 2em;
   font-size: 1.3em;
-  color: rgb(230, 25, 134);
-  text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.5);
+  color: rgb(1, 73, 164);
+  text-shadow: 1px 1px 1px rgba(255, 217, 80, 0.5);
 }
 
 main .card-element:hover .card-text {
-  color: rgb(230, 121, 25);
+  color: rgb(254, 0, 0);
 }
 
 main .card-element img {
