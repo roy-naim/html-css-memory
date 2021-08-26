@@ -3,3 +3,90 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Nerko One', cursive;
+  font-size: 1.5em;
+  background-color: #add8e6;
+}
+
+.container {
+  width: 65%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 10px;
+  font-size: 1.8em;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.5);
+}
+
+main .cards {
+  padding: 10px 0 0;
+  text-align: center;
+}
+
+main .row {
+  margin-bottom: 10px;
+}
+
+main .card-element {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  margin: 1%;
+  padding: 20px 20px 40px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.5);
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat;
+  background-size: contain;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+main .card-text {
+  display: none;
+}
+
+main .card-element:hover .card-text,
+main .card-element.active .card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  line-height: 2em;
+  font-size: 1.3em;
+  color: rgb(230, 25, 134);
+  text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.5);
+}
+
+main .card-element:hover .card-text {
+  color: rgb(230, 121, 25);
+}
+
+main .card-element img {
+  width: 100%;
+  visibility: hidden;
+}
+
+main .card-element.active,
+main .card-element:hover {
+  background-image: none;
+}
+
+main .card-element.active img,
+main .card-element:hover img {
+  visibility: visible;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+}
